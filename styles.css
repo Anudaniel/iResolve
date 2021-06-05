@@ -1,0 +1,269 @@
+/*Styles to use
+Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/teamwork?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+#222831- dark color
+#30475e- grey colour
+#ececec- light clour
+#f2a365- brown colour
+#bb371a- orange colour
+*/
+
+
+/*General Styling -------------*/
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+}
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.content-wrapper h2 {
+    margin-top: 0;
+}
+
+.content-wrapper p {
+    line-height: 1.5em;
+}
+.nav-bar {
+    margin: 0;
+}
+nav.nav-bar {
+    background-color: #8091ac;
+}
+
+.nav-bar ul {
+    margin: 0;
+    padding: 10px 0;
+}
+/* Header -----*/
+
+.header-body {
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a:link {
+    text-decoration: none;
+    padding: 20px;
+    color: darkblue;
+}
+li a:visited {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(54, 158, 33);
+}
+
+li a:hover {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(107, 82, 34);
+}
+li a:active {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(139, 48, 67);
+}
+
+.header-right {
+    float: right;
+    font-size: 20px;
+}
+
+.header-right a {
+    padding: 20px;
+}
+.header span {
+    color: red;
+}
+
+.iheader {
+    color: red;
+}
+
+.header-logo {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(11, 11, 192);
+    font-weight: 900;
+}
+.button1 {
+    border: none;
+    color: rgb(8, 8, 8);
+    background: #ff9100;
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {
+    border: none;
+    color: #ff9100;
+    background: rgb(8, 8, 8);
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.des {
+    width: 800px;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+/* Section ---*/
+
+#About {
+    background: #30475e;
+}
+
+.section-btn {
+    border: none;
+    color: yellow;
+    background: rgb(8, 8, 8);
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.body-image img {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+div.body-image {
+    display: inline;
+}
+
+/* Footer-------*/
+
+.footer {
+    background: #222831;
+    text-align: center;
+}
+.fchat {
+    font-weight: 800;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+}
+.logos img {
+    width: 50px;
+    padding-right: 30px;
+}
+#Contact {
+    line-height: 2em;
+}
+
+/* Register Page---*/
+
+.hreg {
+    color: rgb(207, 7, 7);
+}
+
+form {
+    text-align: center;
+}
+
+
+input[type=text] {
+    background-color: #30475e;
+    color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #222831;
+    border-radius: 4px;
+  }
+
+  input[type=tel] {
+    background-color: #30475e;
+    color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #222831;
+    border-radius: 4px;
+  }
+
+  input[type=email] {
+    background-color: #30475e;
+    color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #222831;
+    border-radius: 4px;
+  }
+
+  input[type=password] {
+    background-color: #30475e;
+    color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #222831;
+    border-radius: 4px;   
+  }
+
+  select {
+    background-color: #30475e;
+    color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #222831;
+    border-radius: 4px; 
+  }
+
+.register-btn {
+    border: none;
+    color: white;
+    background: orange;
+    padding: 15px 40px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+}
+
+  p a {
+      text-decoration: none;
+      color: #a50808;
+      font-weight: 900;
+  }
